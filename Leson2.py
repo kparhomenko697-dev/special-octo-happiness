@@ -16,6 +16,8 @@ print('''
 
 
 
+
+
 """
 def first_function():
     print('Hello students!')
@@ -37,6 +39,8 @@ print(second_function())
 
 
 
+
+
 """
 def hello(arg_1, arg_2):
     return arg_1 + arg_2
@@ -53,6 +57,8 @@ print(hello(x, y))
 
 
 
+
+
 """
 def _s_triangle(a,h):
     s = .5 * a * h
@@ -62,6 +68,8 @@ print(f"площа трикутинка s = {s_triangle(5, 6)}")
 print(f"площа трикутинка s ="
       f" {s_triangle(int(input('a=')), int(input('h=')))}")
 """
+
+
 
 
 
@@ -83,6 +91,8 @@ print(f"result_4 = {calc(1, 2, var_3=3)}")
 
 
 
+
+
 """
 import random
 
@@ -96,6 +106,8 @@ def coin_simulator():
 for i in range(5):
     coin_simulator()
  """
+
+
 
 
 
@@ -113,6 +125,10 @@ print(f"global var_1 --> var_1 = {var_1}")
 print(f"var_2 = {var_2}")
   """
 
+
+
+
+
 """
 var_1 = 5
 
@@ -129,6 +145,9 @@ print(f" global var_1 --> var_1 = {var_1}")
 
 
 
+
+
+"""
 var_2 = 15
 def first():
     var_1 = 10
@@ -144,6 +163,22 @@ def first():
 
 first()
 print(f"global  --> var_2 = {var_2}")
+"""
+
+
+
+
+"""
+#C++ --> const int number = 9.81
+#Python констант немає, але домовились --> NAME - то це константа
+
+import config
+
+name = config.NAME
+print(name)
+"""
+
+
 
 
 
