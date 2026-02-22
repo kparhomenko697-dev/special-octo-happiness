@@ -1,3 +1,4 @@
+"""
 import random
 def game_play(choice, result):
     print("""
@@ -39,5 +40,5 @@ def game_play(choice, result):
           }
 choice = input("Select your choice /P - R - S/:\n\t>>>")
 game_play(choice=choice, result=result)
-
+"""
 
