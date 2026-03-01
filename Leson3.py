@@ -72,4 +72,72 @@ way(**dct)
 """
 
 
+"""
 # f-string f-рядки
+f_name = "Sarhii"
+l_name = "Pustovoit"
+school = 217
+cls = "8-A"
+print("My name -", f_name, "l_name -", l_name,"school -", school, "cls -", cls, '.')
+print(f"My name - {f_name}, l_name - {l_name},school - {school}, cls - {cls}.")
+print(f"My name - {f_name:121}, l_name - {l_name:15},school - {school:6}, cls - {cls:6}.")
+print(f"My name - {f_name:<12}, l_name - {l_name:^15},school - {school:>6}, cls - {cls:^6}.")
+print(f"My name - {f_name:^12}, l_name - {l_name:^15},school - {school:>6}, cls - {cls:*^6}.")
+
+day = 28
+print(f"Today is {day:7d}.")
+print(f"Today is {day:7n}.")
+
+pi = 3.14159265
+print(f"pi = {pi:_^10.3f}")
+
+income = 202336
+costs = 143274
+profit = income /  costs - 1
+print(f"profit = {profit:_^10.3f}")
+print(f"income = {profit:_^10.3f}")
+print(f"profit = {(income / costs - 1):^10.3%}")
+
+print()
+
+#format()
+
+f_name = "Sarhii"
+l_name = "Pustovoit"
+school = 217
+cls = "8-A"
+print("My name -", f_name, "l_name -", l_name,"school -", school, "cls -", cls, '.')
+print("".format( f_name, l_name, school, cls))
+print("My name - {}, l_name - {}, school - {}.".format(f_name, l_name, school))
+print("My name - {:.^10}, l_name - {:.^15}, school - {:_>8d}.".format(f_name, l_name, school))
+print("My l_name - {1:^15}, name - {0:^10}, school - {2:_>8d}.".format(l_name, f_name, school))
+
+
+print("Today: {day:^6} {month:_^16}".format(month="februare", day=28))
+
+# use --> %
+month = "february"
+day = 28
+print("Today: %d %s" % (day, month))
+day = "second"
+s_bool = True
+print("Today: %d %s" % (day, month))
+"""
+
+
+
+"""
+# \t - табуляція (4 пробілів); \n - перехідів на новий рядок
+
+print("За час нашого навчання ми постійно стикалися з рядками.")
+print("За час нашого навчання\n\t\tми постійно\n\t\t\tстикалися з рядками.")
+"""
+
+"""
+print("Nothing\n will work\n unless you do.")
+"""
+
+"""
+print("\"Anyone who\n\tstops\n\tlearning is old,\n\twhether or eighty\"\n\t "Henry Ford")
+"""
+
