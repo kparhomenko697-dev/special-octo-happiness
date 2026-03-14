@@ -1,3 +1,4 @@
+"""
 from tkinter import *
 
 def start(event):
@@ -111,4 +112,4 @@ click_button.pack()
 root.bind("<Return>", start)
 
 root.mainloop()
-
+"""
